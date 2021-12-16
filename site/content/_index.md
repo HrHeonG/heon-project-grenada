@@ -3,7 +3,7 @@ title: The Heon Project Grenada
 subtitle: Allow youths a greater opportunity
 image: /img/home-jumbotron.jpg
 blurb:
-  heading: Why Kaldi?
+  heading: Heon Project?
   text: Kaldi is the coffee store for everyone who believes that great coffee
     shouldn't just taste good, it should do good too. We source all of our beans
     directly from small scale sustainable farmers and make sure part of the
