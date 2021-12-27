@@ -27,6 +27,9 @@
 /* External Library Includes */
 @import './imports/_reset';
 
+/* Fonts */
+@import url('//fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
+
 /* Modules */
 @import './imports/_box-sizing';
 @import './imports/_images';
@@ -82,6 +85,9 @@
 /* Debugging */
 @import './imports/_debug-children';
 @import './imports/_debug-grid';
+
+/*Site Styles*/
+@import './imports_2/_site_styles';
 
 /* Uncomment out the line below to help debug layout issues */
 /*@import './imports/_debug';*/
