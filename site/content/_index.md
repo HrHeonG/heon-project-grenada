@@ -4,11 +4,11 @@ subtitle: Allow youths a greater opportunity
 image: /img/home-jumbotron.jpg
 slideshow:
   slide_1: /img/heon_slide_1.jpg
-  caption_1: Say something for caption 1
+  caption_1: Wellcome To The Heon Project Grenada
   slide_2: /img/heon_slide_2.jpg
-  caption_2: Say something for caption 2
+  caption_2: Wellcome To The Heon Project Grenada
   slide_3: /img/heon_slide_3.jpg
-  caption_3: Say something for caption 3
+  caption_3: Wellcome To The Heon Project Grenada
 blurb:
   heading: HEON PROJECT GRENADA
   text: The HEON project is a registered non profit organization in Grenada, West Indies. A diverse and dedicated team of young professionals throughout the state of Grenada have committed their efforts to this initiative that facilitates the empowerment of young people. The project operates on fundamental principles as accountability, efficiency and transparency. Our beneficiaries are Grenadian nationals with enormous talents and skills awaiting the endless possibilites that exist in their chosen fields. 
