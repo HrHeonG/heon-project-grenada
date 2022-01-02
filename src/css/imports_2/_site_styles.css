@@ -11,6 +11,21 @@ strong {
 
 a {
   color: inherit !important;
+  border-style: none !important;
+
+}
+
+a:focus {
+  box-shadow: none !important;
+}
+
+a.db:focus {
+  box-shadow: none !important;
+  color: #ffe08a !important;
+}
+
+a.db:hover {
+  color: #ffe08a !important;
 }
 
 iframe {

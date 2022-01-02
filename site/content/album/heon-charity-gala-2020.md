@@ -1,6 +1,6 @@
 ---
 type: "album"
-title: "Heon Charity Gala 2019"
+title: "Heon Charity Gala 2020"
 description: "This has been a successful Event"
 collection:
   image_1: /img/CGC01885.jpg

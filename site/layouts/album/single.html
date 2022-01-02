@@ -1,0 +1,52 @@
+{{ define "main" }}
+
+<div class="heon-background-green">
+  <div class="spacer"></div>
+  <div class="columns">
+    <div class="column">
+      <div class="is-flex-center">
+        <p class="is-size-3 text-white text-center">{{.Params.title}} alright</p>
+      </div>
+    </div>
+  </div>
+  <div class="spacer"></div>
+</div>
+<div class="container">
+  <div class="columns is-multiline">
+      
+    {{ $counter := int ("0")}}
+      
+    {{ range .Params.collection}}
+      <div class="column is-4" style="padding: 5px 8px;" id="SponsorBox{{$counter}}">
+        <img src="{{.}}" style="margin-bottom: 0px;" alt="" class="mb3" onclick=setModalImage({{.}})>
+      </div>
+    {{end}}
+    <script type="text/javascript">
+      function setModalImage(image){
+        modal = document.getElementById("modal-for-image");
+        imageElement = document.getElementById("image-for-modal");
+        console.log(modal, imageElement)
+        document.getElementsByTagName("html")[0].classList.add("is-clipped");
+        imageElement.src = image;
+        modal.classList.add("is-active");
+      }
+
+      function closeModal(){
+        modal = document.getElementById("modal-for-image");
+        document.getElementsByTagName("html")[0].classList.remove("is-clipped");
+        modal.classList.remove("is-active");
+      }
+    </script>
+  </div>
+</div>
+
+<div class="modal" id="modal-for-image">
+  <div class="modal-background" onclick= closeModal()></div>
+  <div class="modal-content">
+    <img id="image-for-modal" src="https://bulma.io/images/placeholders/1280x960.png" alt="">
+  </div>
+  <button class="modal-close is-large" aria-label="close"></button>
+</div>
+
+
+{{ end }}

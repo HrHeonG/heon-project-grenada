@@ -5,7 +5,7 @@
   <div class="columns">
     <div class="column">
       <div class="is-flex-center">
-        <p class="is-size-3 text-white text-center">Gallery</p>
+        <p class="is-size-3 text-white text-center">{{.Params.title}}</p>
       </div>
     </div>
   </div>
@@ -15,17 +15,20 @@
   <div class="columns is-multiline">
       
     {{ $counter := int ("0")}}
-    {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
+    {{ range .Pages.ByPublishDate.Reverse }}
       
-      {{ range .Params.collection}}
         <div class="column is-4" id="SponsorBox{{$counter}}">
-          <img src="{{.}}" alt="" class="mb3">
-          <h3 class="text-white">{{.}}</h3>
+          <h3 class="text-white"><strong>{{.Params.title}}</strong></h3>
+          <a href="{{ .Permalink }}">
+            <img src="{{.Params.collection.image_1}}" alt="" class="mb3">
+          </a>
+          
+          <a href="{{.Permalink}}" class="button is-warning" style="display: flex; align-items: center; justify-content: center;">
+            <strong> View Collection</strong>
+          </a>
         </div>
-      {{end}}
     {{ end }}
   </div>
-  {{ partial "pagination" . }}
 </div>
 
 {{ end }}
