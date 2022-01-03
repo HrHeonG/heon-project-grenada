@@ -33,7 +33,7 @@ iframe {
 }
 
 .box {
-  background-color: $heon-dark-green !important;
+  background-color: $heon-dark-blue !important;
   color: white !important;
   padding-left: 3px !important;
   padding-right: 3px !important;
@@ -86,12 +86,20 @@ iframe {
   background-color: #50ab91;
 }
 
+.caption-blue {
+  background-color: #1392d1;
+}
+
 .section-green {
   background-color: #50ab91;
 }
 
+.section-blue {
+  background-color: #1392d1;
+}
+
 .caption-yellow {
-  background-color: #e0dd22;
+  background-color: #ffe08a;
 }
 
 .main-banner-section {
@@ -203,8 +211,16 @@ these make the slideshow work
   color: #204b52;
 }
 
+.dark-blue-text {
+  color: #27418a;
+}
+
 .light-green-text {
   color: #50ab91;
+}
+
+.light-blue-text {
+  color: #1392d1;
 }
 
 ////////////////////////////
@@ -289,7 +305,7 @@ these make the slideshow work
 }
 
 .heon-background-blue {
-  background-color: $heon-nav-blue !important;
+  background-color: $heon-dark-blue !important;
 }
 
 .heon-background-blue-2 {
