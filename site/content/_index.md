@@ -25,17 +25,4 @@ mission:
 help:
   heading: How can you help 
   text: 'Want to join the team? We would love for you to join our vibrant team of professionals who are empowering youth throughout Grenada. Join our team and become part of the HEON Family. Become a HEON sponsor by purchasing one of three packages: platinum, gold or silver or simply make a contribution of any amount to the project. We also collaborate with organizations and businesses to offer special awards.'
-
-products:
-  - image: img/illustrations-coffee.svg
-    text: We sell green and roasted coffee beans that are sourced directly from
-      independent farmers and farm cooperatives. We’re proud to offer a variety
-      of coffee beans grown with great care for the environment and local
-      communities. Check our post or contact us directly for current
-      availability.
-  - image: /img/illustrations-coffee-gear.svg
-    text: We offer a small, but carefully curated selection of brewing gear and
-      tools for every taste and experience level. No matter if you roast your
-      own beans or just bought your first french press, you’ll find a gadget to
-      fall in love with in our shop.
 ---
