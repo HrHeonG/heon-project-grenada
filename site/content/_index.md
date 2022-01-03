@@ -12,12 +12,6 @@ slideshow:
 blurb:
   heading: HEON PROJECT GRENADA
   text: The HEON project is a registered non profit organization in Grenada, West Indies. A diverse and dedicated team of young professionals throughout the state of Grenada have committed their efforts to this initiative that facilitates the empowerment of young people. The project operates on fundamental principles as accountability, efficiency and transparency. Our beneficiaries are Grenadian nationals with enormous talents and skills awaiting the endless possibilites that exist in their chosen fields.
-intro:
-  heading: What we offer
-  text: Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone.
 mission:
   heading: Our Mission
   text: Our mission is to facilaite the process of youth empowerment through education. We believe education is the gateway to upward mobility and every student desirous of a college education in Grenada should be afforded the opportunity to do so
