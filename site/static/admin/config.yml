@@ -12,8 +12,27 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "text"}
-      - {label: Image, name: image_1, widget: image}
-      - {label: "Youtube (Embeded Link)", name: "youtube", widget: "text", required: false}
+      - {label: "Photos", name: collection, widget: object, fields: [
+          {label: "Image", name: image_1, widget: image, required: true},
+          {label: "Image", name: image_2, widget: image, required: true},
+          {label: "Image", name: image_3, widget: image, required: true},
+          {label: "Image", name: image_4, widget: image, required: true},
+          {label: "Image", name: image_5, widget: image, required: true},
+          {label: "Image", name: image_6, widget: image, required: true},
+          {label: "Image", name: image_7, widget: image, required: true},
+          {label: "Image", name: image_8, widget: image, required: true},
+          {label: "Image", name: image_9, widget: image, required: true},
+          {label: "Image", name: image_10, widget: image, required: true},
+          {label: "Image", name: image_10, widget: image, required: true},
+          {label: "Image", name: image_12, widget: image, required: true},
+          {label: "Image", name: image_13, widget: image, required: true},
+          {label: "Image", name: image_14, widget: image, required: true},
+          {label: "Image", name: image_15, widget: image, required: true},
+          {label: "Image", name: image_16, widget: image, required: true},
+          {label: "Image", name: image_17, widget: image, required: true},
+          {label: "Image", name: image_18, widget: image, required: true},
+          {label: "Image", name: image_19, widget: image, required: true},
+          {label: "Image", name: image_20, widget: image, required: true}]}
   - name: "sponsor" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Sponsor" # Used in the UI, ie.: "New Post"
     folder: "site/content/sponsor" # The path to the folder where the documents are stored
@@ -29,9 +48,13 @@ collections: # A list of collections the CMS should be able to edit
         label: "Home Page"
         name: "home"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Image, name: image, widget: image}
+          - {label: "Slideshow", name: slideshow, widget: object, fields: [
+              {label: "Slide 1", name: "slide_1", widget: string},
+              {label: "Caption", name: "caption_1", widget: "text"},
+              {label: "Slide 2", name: "slide_2", widget: string},
+              {label: "Caption", name: "caption_2", widget: string},
+              {label: "Slide 3", name: "slide_3", widget: string},
+              {label: "Caption", name: "caption_3", widget: string}]}
           - {label: "Blurb", name: blurb, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}

@@ -1,7 +1,4 @@
 ---
-title: The Heon Project Grenada
-subtitle: Allow youths a greater opportunity
-image: /img/home-jumbotron.jpg
 slideshow:
   slide_1: /img/heon_slide_1.jpg
   caption_1: Wellcome To The Heon Project Grenada
