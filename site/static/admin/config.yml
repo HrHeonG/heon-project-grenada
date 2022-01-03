@@ -23,7 +23,7 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Image", name: image_8, widget: image, required: true},
           {label: "Image", name: image_9, widget: image, required: true},
           {label: "Image", name: image_10, widget: image, required: true},
-          {label: "Image", name: image_10, widget: image, required: true},
+          {label: "Image", name: image_11, widget: image, required: true},
           {label: "Image", name: image_12, widget: image, required: true},
           {label: "Image", name: image_13, widget: image, required: true},
           {label: "Image", name: image_14, widget: image, required: true},
