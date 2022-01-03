@@ -1,21 +1,21 @@
 {{ define "main" }}
 
-<div class="ph3 bg-off-white">
-	<div class="center mw6 pv3">
+<div class="ph3 heon-background-green">
+	<div class="center mw6 pv3 text-white">
 
-		<img src="{{ .Params.logo }}" alt="" class="db w4 center pv4">
-
-		{{ .Content }}
-
-		<div class="flex-ns mb3">
-	        	{{ range .Params.contact_entries }}
-				<div>
-					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
-					<p>{{ .text }}</p>
-				</div>
-			{{ end }}
+		<div>
+		  <div class="spacer"></div>
+		  <div class="columns">
+		    <div class="column">
+		      <div class="is-flex-center">
+		        <p class="is-size-3 text-white text-center">Contact Us</p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="spacer"></div>
 		</div>
 
+		{{ .Content }}
 		{{ partial "contact-form" . }}
 
 	</div>

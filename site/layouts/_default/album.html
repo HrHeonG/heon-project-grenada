@@ -1,0 +1,34 @@
+{{ define "main" }}
+
+<div class="heon-background-green">
+  <div class="spacer"></div>
+  <div class="columns">
+    <div class="column">
+      <div class="is-flex-center">
+        <p class="is-size-3 text-white text-center">{{.Params.title}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="spacer"></div>
+</div>
+<div class="container">
+  <div class="columns is-multiline">
+      
+    {{ $counter := int ("0")}}
+    {{ range .Pages.ByPublishDate.Reverse }}
+      
+        <div class="column is-4" id="SponsorBox{{$counter}}">
+          <h3 class="text-white"><strong>{{.Params.title}}</strong></h3>
+          <a href="{{ .Permalink }}">
+            <img src="{{.Params.collection.image_1}}" alt="" class="mb3">
+          </a>
+          
+          <a href="{{.Permalink}}" class="button is-warning" style="display: flex; align-items: center; justify-content: center;">
+            <strong> View Collection</strong>
+          </a>
+        </div>
+    {{ end }}
+  </div>
+</div>
+
+{{ end }}

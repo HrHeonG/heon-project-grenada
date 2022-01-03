@@ -1,0 +1,8 @@
+---
+type: "page"
+layout: "about"
+title: "ABOUT THE HEON PROJECT GRENADA"
+about_part_1: The HEON Project was launched on the 10th January 2015 at the Grenada Youth Center. The project was launched by a group of young Grenadians whose vision is to empower young people through education and the improvement of their skills and abilities as well as to ensure that tertiary education is afforded to all students regardless of their socio-economic background. The cofounders have internalized their personal experiences and their desire to contribute to Grenada’s continued growth and development to create this initiative which brings hope to students. The project provides tuition scholarships and mentorship to students desirous of furthering their education and skills at the T. A Marryshow Community College or a recognized skill center in Grenada.  Since it’s launch in 2015 to 2021, the project has provided tuition assistance to over 50 Grenadian students to pursue tertiary education.
+about_part_2: Through collaboration with the Ann Alexander Memorial Scholarship, special scholarships are awarded to female students from St. Andrews interested in our pursuing studies in that field of Natural Science or Information Technology.  In 2020, The horn project collaborated with Go Blue Incorporation to provide special awards also to students from St. Patricks and St. Marks interested in pursuing studies in the field of Natural Science or technology. 
+
+---
