@@ -1,10 +1,8 @@
 console.log("Next Slide :-)")
 
-setTimeout(function(){console.log(document.getElementById("slides"))}, 5000)
-
 if (document.getElementById("slides")) {
   console.log("Next Slide :-)")
-  var top_slide_element = document.getElementsByClassName("caption-green")[0]
+  var top_slide_element = document.getElementsByClassName("caption-blue")[0]
   top_slide_element.style.marginLeft = "0px";
   var slides = document.querySelectorAll('.slide');
   var currentSlide = 0;
@@ -12,7 +10,7 @@ if (document.getElementById("slides")) {
   var captionSlides = document.querySelectorAll('.main-caption-text');
   var currentCaptionSlide = 0;
 
-  var slideInterval = setInterval(nextSlide,5000);
+  var slideInterval = setInterval(nextSlide, 9000);
 
   function nextSlide() {
       console.log("Next Slide :-)")
