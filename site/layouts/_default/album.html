@@ -17,16 +17,15 @@
     {{ $counter := int ("0")}}
     {{ range .Pages.ByPublishDate.Reverse }}
       
-        <div class="column is-4" id="SponsorBox{{$counter}}">
-          <h3 class="text-white"><strong>{{.Params.title}}</strong></h3>
-          <a href="{{ .Permalink }}">
-            <img src="{{.Params.collection.image_1}}" alt="" class="mb3">
-          </a>
-          
-          <a href="{{.Permalink}}" class="button is-warning" style="display: flex; align-items: center; justify-content: center;">
-            <strong> View Collection</strong>
-          </a>
-        </div>
+      <div class="column is-4" id="SponsorBox{{$counter}}">
+        <p class="text-white is-size-5"><strong>{{.Params.title}}</strong></p>
+        <a href="{{ .Permalink }}">
+          <img src="{{.Params.collection.image_1}}" alt="" class="mb3">
+        </a>
+        <a href="{{.Permalink}}" class="button is-warning" style="display: flex; align-items: center; justify-content: center;">
+          <strong> View Collection</strong>
+        </a>
+      </div>
     {{ end }}
   </div>
   <div class="spacer-x2"></div>
