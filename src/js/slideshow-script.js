@@ -3,7 +3,7 @@ console.log("Next Slide :-)")
 if (document.getElementById("slides")) {
   console.log("Next Slide :-)")
   var top_slide_element = document.getElementsByClassName("caption-blue")[0]
-  top_slide_element.style.marginLeft = "0px";
+  top_slide_element.style.marginTop = "0px";
   var slides = document.querySelectorAll('.slide');
   var currentSlide = 0;
 
@@ -21,7 +21,7 @@ if (document.getElementById("slides")) {
       var oldCaptionSlide = currentCaptionSlide
       currentCaptionSlide = (currentCaptionSlide+1)%captionSlides.length;
 
-      captionSlides[currentCaptionSlide].style.marginLeft = "0px"
+      captionSlides[currentCaptionSlide].style.marginTop = "0px"
       
       captionSlides[currentCaptionSlide].style.zIndex = 4
       // captionSlides[currentCaptionSlide].style.transition ="margin-left 2s";
@@ -31,7 +31,7 @@ if (document.getElementById("slides")) {
 
       setTimeout(function(){
         captionSlides[oldCaptionSlide].style.zIndex = 1
-        captionSlides[oldCaptionSlide].style.marginLeft = "100%"
+        captionSlides[oldCaptionSlide].style.marginTop = "50%"
         captionSlides[currentCaptionSlide].style.zIndex = 3
       }, 3000)
   }
