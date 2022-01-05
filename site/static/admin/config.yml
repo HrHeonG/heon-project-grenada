@@ -42,18 +42,18 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Youtube (Embeded Link)", name: "youtube", widget: "text", required: true}
   - name: "pages"
-    label: "Pages"
+    label: "More Pages"
     files:
       - file: "site/content/_index.md"
         label: "Home Page"
         name: "home"
         fields:
           - {label: "Slideshow", name: slideshow, widget: object, fields: [
-              {label: "Slide 1", name: "slide_1", widget: string},
+              {label: "Slide 1", name: "slide_1", widget: image},
               {label: "Caption", name: "caption_1", widget: "text"},
-              {label: "Slide 2", name: "slide_2", widget: string},
+              {label: "Slide 2", name: "slide_2", widget: image},
               {label: "Caption", name: "caption_2", widget: string},
-              {label: "Slide 3", name: "slide_3", widget: string},
+              {label: "Slide 3", name: "slide_3", widget: image},
               {label: "Caption", name: "caption_3", widget: string}]}
           - {label: "Blurb", name: blurb, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
