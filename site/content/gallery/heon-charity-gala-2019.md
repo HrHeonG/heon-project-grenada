@@ -1,5 +1,5 @@
 ---
-type: "album"
+type: "gallery"
 title: "Heon Charity Gala 2019"
 description: "This has been a successful Event"
 collection:

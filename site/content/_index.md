@@ -1,4 +1,6 @@
 ---
+title: "Heon Project Grenada | Non-Profit Organization"
+description: "A registered non profit organization in Grenada, West Indies"
 slideshow:
   slide_1: /img/heon_slide_1.jpg
   caption_1: Welcome To The Heon Project Grenada

@@ -1,7 +1,8 @@
-baseurl = "/"
+baseurl = "www.heonprojectgrenada.org/"
 languageCode = "en-us"
 languageLang = "en"
 title = "Homepage"
+pluralizelisttitles = false
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 

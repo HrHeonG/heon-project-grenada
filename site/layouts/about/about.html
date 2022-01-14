@@ -8,16 +8,16 @@
         <div style="display: block;">
           <div class="text-center">
             <div class="is-size-3">
-              ABOUT THE HEON PROJECT GRENADA
+              <h1>ABOUT THE HEON PROJECT GRENADA</h1>
             </div>
             <div class="spacer"></div>
             <img src="img/heon-project-small-logo.png" alt="" class="mb3">
             <div class="spacer x2"></div>
             <div class="is-size-5" style="line-height: 1.5em">
               {{ range .Pages.ByPublishDate.Reverse }}
-                  {{ .Params.about_part_1}}
+                  <p>{{ .Params.about_part_1}}</p>
                 <br>
-                  {{ .Params.about_part_2}}
+                  <p>{{ .Params.about_part_2}}</p>
               {{ end }}
             </div>
           </div>
