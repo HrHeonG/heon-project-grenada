@@ -5,9 +5,9 @@ media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "album" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Album" # Used in the UI, ie.: "New Post"
-    folder: "site/content/album" # The path to the folder where the documents are stored
+  - name: "gallery" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "album" # Used in the UI, ie.: "New Post"
+    folder: "site/content/gallery" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
@@ -33,9 +33,9 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Image", name: image_18, widget: image, required: true},
           {label: "Image", name: image_19, widget: image, required: true},
           {label: "Image", name: image_20, widget: image, required: true}]}
-  - name: "sponsor" # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "sponsors" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Sponsor" # Used in the UI, ie.: "New Post"
-    folder: "site/content/sponsor" # The path to the folder where the documents are stored
+    folder: "site/content/sponsors" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}

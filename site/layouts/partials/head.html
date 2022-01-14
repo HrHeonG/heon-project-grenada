@@ -1,6 +1,25 @@
 <head>
 
-  <title>{{ .Title }} | {{ $.Site.Title }}</title>
+  <title>{{ .Title }}</title>
+  {{ if .IsHome }}
+    <meta name="description" content={{.Description}}>
+  {{ end }}
+
+  {{ if eq .Title "Sponsors" }}
+    <meta name="description" content="Highlighting the contributions made by benefactors">
+  {{ end }}
+
+  {{ if eq .Title "Gallery" }}
+    <meta name="description" content="Photo collections">
+  {{ end }}
+
+  {{ if eq .Title "About" }}
+    <meta name="description" content="The project was launched by a group of young Grenadians whose vision is to empower young people through education...">
+  {{ end }}
+
+  {{ if eq .Title "Contact" }}
+    <meta name="description" content="Reach out to the Heon Project Grenada">
+  {{ end }}
 
   {{ $stylesheet := .Site.Data.webpack.main }}
   {{ with $stylesheet.css }}

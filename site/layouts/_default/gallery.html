@@ -5,7 +5,7 @@
   <div class="columns">
     <div class="column">
       <div class="is-flex-center">
-        <p class="is-size-3 text-white text-center">Gallery</p>
+        <h1 class="is-size-3 text-white text-center">Gallery</h1>
       </div>
     </div>
   </div>
@@ -18,7 +18,7 @@
     {{ range .Pages.ByPublishDate.Reverse }}
       
       <div class="column is-4" id="SponsorBox{{$counter}}">
-        <p class="text-white is-size-5"><strong>{{.Params.title}}</strong></p>
+        <h2 class="text-white is-size-5"><strong>{{.Params.title}}</strong></h2>
         <a href="{{ .Permalink }}">
           <img src="{{.Params.collection.image_1}}" alt="" class="mb3">
         </a>

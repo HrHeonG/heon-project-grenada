@@ -1,0 +1,35 @@
+{{ define "main" }}
+
+<div class="heon-background-blue">
+  <div class="spacer-x2"></div>
+  <div class="columns">
+    <div class="column">
+      <div class="is-flex-center">
+        <h1 class="is-size-3 text-white text-center">Media</h1>
+      </div>
+    </div>
+  </div>
+  <div class="spacer-x2"></div>
+  <div class="container">
+    <ul class="columns is-multiline">
+        {{ $counter := int ("0")}}
+        {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
+          {{ $counter = add $counter 1}}
+          <div class="column is-4" id="SponsorBox{{$counter}}">
+            {{ .Render "sponsor-li"}}
+          </div>
+          <script type="text/javascript">
+            var target = document.getElementById("SponsorBox{{$counter}}");
+            frame_html = target.getElementsByClassName("box")[0].dataset.frame
+            target.getElementsByClassName("video-container")[0].innerHTML = frame_html
+          </script>
+        {{ end }}
+    </ul>
+    {{ partial "pagination" . }}
+  </div>
+  <div class="spacer-x2"></div>
+  <div class="spacer-x2"></div>
+  <div class="spacer-x2"></div>
+</div>
+
+{{ end }}
