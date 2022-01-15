@@ -7,6 +7,6 @@ youtube: <iframe width="560" height="315"
   encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 show_image: false
 image: /img/heon-group-photo-mission.jpg
-show_button: true
+show_button: false
 button_link: https://www.google.com
 ---
