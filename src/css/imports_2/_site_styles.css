@@ -9,7 +9,7 @@ strong {
   color: inherit !important;
 }
 
-a {
+a.main-nav {
   color: inherit !important;
   border-style: none !important;
 
@@ -28,15 +28,26 @@ a.db:hover {
   color: #ffe08a !important;
 }
 
+p {
+  margin: auto !important;
+}
+
 iframe {
   width: 100% !important;
 }
 
 .box {
   background-color: $heon-dark-blue !important;
-  color: white !important;
   padding-left: 3px !important;
   padding-right: 3px !important;
+}
+
+.box h2 {
+  color: white !important;
+}
+
+.box p {
+  color: white !important;
 }
 
 .is-size-3 {
