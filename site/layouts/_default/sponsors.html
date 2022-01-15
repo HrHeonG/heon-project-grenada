@@ -13,16 +13,18 @@
   <div class="container">
     <ul class="columns is-multiline">
         {{ $counter := int ("0")}}
-        {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
+        {{ range (.Paginator 10).Pages.ByPublishDate.Reverse }}
           {{ $counter = add $counter 1}}
           <div class="column is-4" id="SponsorBox{{$counter}}">
             {{ .Render "sponsor-li"}}
           </div>
-          <script type="text/javascript">
-            var target = document.getElementById("SponsorBox{{$counter}}");
-            frame_html = target.getElementsByClassName("box")[0].dataset.frame
-            target.getElementsByClassName("video-container")[0].innerHTML = frame_html
-          </script>
+          {{ if eq .Params.show_image false }}
+            <script type="text/javascript">
+              var target = document.getElementById("SponsorBox{{$counter}}");
+              frame_html = target.getElementsByClassName("box")[0].dataset.frame
+              target.getElementsByClassName("video-container")[0].innerHTML = frame_html
+            </script>
+          {{ end }}
         {{ end }}
     </ul>
     {{ partial "pagination" . }}

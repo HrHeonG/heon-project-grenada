@@ -1,7 +1,27 @@
-<div class="box" data-frame="{{.Params.youtube}}">
-  <h2 class="is-size-4"> <strong> {{ .Title }}</strong></h2>
-  <div class="video-container" style="overflow: hidden;">
+{{ if eq .Params.show_image true }}
+  <div class="box">
+    <h2 class="is-size-4 text-white"> <strong> {{ .Title }}</strong></h2>
+    <img src="{{.Params.image}}" alt="" class="mb3">
+    
+    <p class="text-white">{{.Description}}</p>
+    {{ if eq .Params.show_button true }}
+      <a href="{{.Params.button_link}}" class="button is-warning" style="display: flex; align-items: center; justify-content: center;">
+        <strong>View</strong>
+        <i class="fas fa-globe-africa is-size-5" style="padding-left: 10px;"></i>
+      </a>
+    {{ end }}
   </div>
-  
-  <p>{{.Description}}</p>
-</div>
+{{ else }}
+  <div class="box" data-frame="{{.Params.youtube}}">
+    <h2 class="is-size-4" style="font-style: bold;">{{ .Title }}</h2>
+    <div class="video-container" style="overflow: hidden;">
+    </div>
+    <p>{{.Description}}</p>
+    {{ if eq .Params.show_button true }}
+      <a href="{{.Params.button_link}}" class="button is-warning" style="display: flex; align-items: center; justify-content: center;">
+        <strong>View</strong>
+        <i class="fas fa-globe-africa is-size-5" style="padding-left: 10px;"></i>
+      </a>
+    {{ end }}
+  </div>
+{{ end }}

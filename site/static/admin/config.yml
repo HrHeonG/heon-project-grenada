@@ -6,7 +6,7 @@ public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
   - name: "gallery" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "album" # Used in the UI, ie.: "New Post"
+    label: "Photo Album" # Used in the UI, ie.: "New Post"
     folder: "site/content/gallery" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
@@ -34,13 +34,25 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Image", name: image_19, widget: image, required: true},
           {label: "Image", name: image_20, widget: image, required: true}]}
   - name: "sponsors" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Sponsor" # Used in the UI, ie.: "New Post"
+    label: "Sponsor" # Used in the UI, ie.: "New Sponsor"
     folder: "site/content/sponsors" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Youtube (Embeded Link)", name: "youtube", widget: "text", required: true}
+      - {label: "Show image instead of video", name: "show_image", widget: "boolean", default: false}
+      - {label: "Image", name: image, widget: image, required: false}
+  - name: "media" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Media | News" # Used in the UI, ie.: "New Sponsor"
+    folder: "site/content/media" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Youtube (Embeded Link)", name: "youtube", widget: "text", required: true}
+      - {label: "Show image instead of video", name: "show_image", widget: "boolean", default: false}
+      - {label: "Image", name: image, widget: image, required: false}
   - name: "pages"
     label: "More Pages"
     files:
