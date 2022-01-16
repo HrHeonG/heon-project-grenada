@@ -34,15 +34,15 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Image", name: image_19, widget: image, required: true},
           {label: "Image", name: image_20, widget: image, required: true}]}
   - name: "application_forms" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Application Form" # Used in the UI, ie.: "New Sponsor"
+    label: "Application Forms" # Used in the UI, ie.: "New Sponsor"
     folder: "site/content/apply" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Hide form (hide from Apply Page)", name: "hide_form", widget: "boolean", default: false}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "text"}
-      - {label: "Hide button", name: "show_button", widget: "boolean", default: false}
-      - {label: "Link (used for button)", name: button_link, widget: string, required: false}
+      - {label: "Show button", name: "show_button", widget: "boolean", default: true}
+      - {label: "Link (eg: https://www.google.com)", name: button_link, widget: string, required: false}
   - name: "sponsors" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Sponsor" # Used in the UI, ie.: "New Sponsor"
     folder: "site/content/sponsors" # The path to the folder where the documents are stored
