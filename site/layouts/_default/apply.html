@@ -1,0 +1,45 @@
+{{ define "main" }}
+
+<div class="heon-background-blue">
+  <div class="spacer"></div>
+  <div class="columns">
+    <div class="column">
+      <div class="is-flex-center">
+        <h1 class="is-size-3 text-white text-center">Application Forms</h1>
+      </div>
+    </div>
+  </div>
+  <div class="spacer"></div>
+</div>
+<div class="container">
+  <div class="columns is-multiline">
+      
+    {{ $counter := int ("0")}}
+    {{ range .Pages.ByPublishDate.Reverse }}
+      {{ if eq .Params.hide_form false }}
+        <div class="column is-6 is-offset-3" id="SponsorBox{{$counter}}">
+          <div class="text-center" style="border-style: solid; border-radius: 10px; background-color: #232078;">
+            <div class="text-center" style="border-style: solid; border-radius: 10px 10px 0px 0px; background-color: white;">
+              <h2 class="is-size-5"><strong>{{.Params.title}}</strong></h2>
+            </div>
+            <div class="text-white is-size-5" style="min-height: 80px;">
+              <p>{{ .Params.description }}</p>
+            </div>
+            {{ if eq .Params.show_button true }}
+              <a href="{{.Params.button_link}}" class="button is-warning text-center" style="display: flex; align-items: center; justify-content: center; width: 50%; margin: auto;">
+                <strong>Apply</strong>
+                <i class="fas fa-pen-alt is-size-5" style="padding-left: 10px;"></i>
+              </a>
+              <div class="spacer"></div>
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
+    {{ end }}
+  </div>
+  <div class="spacer-x2"></div>
+  <div class="spacer-x2"></div>
+  <div class="spacer-x2"></div>
+</div>
+
+{{ end }}

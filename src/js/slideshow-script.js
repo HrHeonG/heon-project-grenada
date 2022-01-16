@@ -10,7 +10,7 @@ if (document.getElementById("slides")) {
   var captionSlides = document.querySelectorAll('.main-caption-text');
   var currentCaptionSlide = 0;
 
-  var slideInterval = setInterval(nextSlide, 9000);
+  var slideInterval = setInterval(nextSlide, 10000);
 
   function nextSlide() {
       console.log("Next Slide :-)")
