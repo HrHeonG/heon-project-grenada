@@ -25,8 +25,8 @@ blurb:
     awaiting the endless possibilites that exist in their chosen fields.
 mission:
   heading: Our Mission
-  text: "Our mission is to facilitate the process of youth empowerment through
-    education. "
+  text: Our mission is to facilitate the process of youth empowerment through
+    education and the development of one's skills and abilities
   image: /img/heon-group-photo-mission.jpg
 help:
   heading: How can you help
