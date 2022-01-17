@@ -6,9 +6,9 @@ slideshow:
   caption_1: "Public Relations Officer and Co-founder of the HEON Project; Carlene
     Perryman, hosts the 4th annual HEON Charity Dinner in collaboration with
     Island Catering at the beautiful Pier 57. "
-  slide_2: img/liston-2.jpg
-  caption_2: "HEON recipient Liston Noel from St. Patrick's graduates with honors
-    from the T. A Marryshow Community College "
+  slide_2: img/karina.jpg
+  caption_2: "HEON Project in collaboration with Ann Alexander Memorial
+    Scholarship awards two recipients from St. Andrews "
   slide_3: img/kazelle-care.jpg
   caption_3: "Co-Founder of the HEON Project Saron Mark, presents recipient with a
     laptop on behalf of Kazelle Care; an alternative skin care line using
