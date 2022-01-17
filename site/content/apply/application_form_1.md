@@ -1,5 +1,5 @@
 ---
-hide_form: false
+hide_form: true
 title: Application Form
 description: Description of form or note for potential applicant
 show_button: false
