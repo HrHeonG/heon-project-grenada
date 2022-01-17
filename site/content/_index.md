@@ -30,10 +30,11 @@ mission:
   image: /img/heon-group-photo-mission.jpg
 help:
   heading: How can you help
-  text: "Want to join the team? We would love for you to join our vibrant team of
+  text: >-
+    Want to join the team? We would love for you to join our vibrant team of
     professionals who are empowering youth throughout Grenada. Join our team and
-    become part of the HEON Family. Become a HEON sponsor by purchasing one of
-    three packages: platinum, gold or silver or simply make a contribution of
-    any amount to the project. We also collaborate with organizations and
-    businesses to offer special awards."
+    become part of the HEON Family. 
+
+
+    Become a HEON sponsor by purchasing one of three packages: platinum, gold or silver or simply make a contribution of any amount to the project. We also collaborate with organizations and businesses to offer special awards.
 ---
