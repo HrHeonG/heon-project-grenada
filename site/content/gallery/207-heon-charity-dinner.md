@@ -6,7 +6,7 @@ collection:
   image_10: img/2017-5.jpg
   image_11: img/2017-t.jpg
   image_12: img/2017-n.jpg
-  image_13: img/2017-2.jpg
+  image_13: img/2017-r.jpg
   image_14: img/2017-j.jpg
   image_15: img/2017-f.jpg
   image_16: img/2017-8.jpg
