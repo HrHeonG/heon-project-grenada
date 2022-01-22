@@ -8,10 +8,7 @@ slideshow:
   slide_2: img/CGC01885.jpg
   caption_2: "Fourth annul HEON Charity Dinner  "
   slide_3: img/kazelle-care.jpg
-  caption_3: "Co-Founder of the HEON Project Saron Mark, presents recipient with a
-    laptop on behalf of Kazelle Care; an alternative skin care line using
-    minimal ingredients of the highest quality to promote healthy skin and
-    wellbeing. "
+  caption_3: The HEON Project Grenada provides electronic devices to recipients
 blurb:
   heading: HEON PROJECT GRENADA
   text: The HEON project is a registered non profit organization in Grenada, West
