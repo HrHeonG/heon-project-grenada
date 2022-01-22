@@ -4,7 +4,7 @@ description: 2017 HEON annual Charity dinner at Spice Basket Grenada
 collection:
   image_20: img/2017-6.jpg
   image_10: img/2017-5.jpg
-  image_11: img/2017-3.jpg
+  image_11: img/2017-t.jpg
   image_12: img/2017-n.jpg
   image_13: img/2017-2.jpg
   image_14: img/2017-j.jpg
