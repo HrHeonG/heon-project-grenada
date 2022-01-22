@@ -8,7 +8,8 @@ slideshow:
   slide_2: img/CGC01885.jpg
   caption_2: "Fourth annul HEON Charity Dinner  "
   slide_3: img/kazelle-care.jpg
-  caption_3: The HEON Project Grenada provides electronic devices to recipients
+  caption_3: Kazelle Care collaborates with the HEON Project to provide electronic
+    devices to HEON recipients
 blurb:
   heading: HEON PROJECT GRENADA
   text: The HEON project is a registered non profit organization in Grenada, West
