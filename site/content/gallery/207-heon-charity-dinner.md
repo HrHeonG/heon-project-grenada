@@ -1,5 +1,5 @@
 ---
-title: "207 HEON Charity Dinner "
+title: HEON Charity Gala 2017
 description: 2017 HEON annual Charity dinner at Spice Basket Grenada
 collection:
   image_20: img/2017-6.jpg
