@@ -2,10 +2,9 @@
 title: Heon Project Grenada | Non-Profit Organization
 description: A registered non profit organization in Grenada, West Indies
 slideshow:
-  slide_1: /img/heon_slide_1.jpg
-  caption_1: "Public Relations Officer and Co-founder of the HEON Project; Carlene
-    Perryman, hosts the 4th annual HEON Charity Dinner in collaboration with
-    Island Catering at the beautiful Pier 57. "
+  slide_1: img/heon-.jpg
+  caption_1: "2021 recipients with HEON Project Sponsors Rae Thomas (left) and
+    Frederick Belfon (right) at the 7th HEON Scholarship Award Ceremony "
   slide_2: img/CGC01885.jpg
   caption_2: "Fourth annul HEON Charity Dinner  "
   slide_3: img/kazelle-care.jpg
