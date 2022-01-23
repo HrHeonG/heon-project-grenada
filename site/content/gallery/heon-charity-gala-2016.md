@@ -1,5 +1,5 @@
 ---
-title: HEON Charity Gala 2016
+title: HEON CHARITY GALA 2016
 description: "HEON Charity Gala 2016 at the Belmont Estate "
 collection:
   image_20: img/13308721_517478398438337_7457493428205991954_o.jpg
