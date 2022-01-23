@@ -8,7 +8,7 @@ description: >-
 
   - Must be  Grenadian National 
 
-  -Must have applied and received acceptance from the chosen school 
+  -Must have applied and received acceptance from the institution  
 
 
   Applicants must provide evidence of monthly household income 
