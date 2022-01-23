@@ -1,5 +1,5 @@
 ---
-hide_form: true
+hide_form: false
 title: "HEON Project Scholarship Application Form "
 description: >-
   The HEON Project provides tuition scholarships to eligible Grenadians to
