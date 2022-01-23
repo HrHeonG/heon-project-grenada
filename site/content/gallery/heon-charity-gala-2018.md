@@ -1,5 +1,5 @@
 ---
-title: "HEON Charity Gala 2018 "
+title: HEON CHARITY GALA 2018
 description: "HEON Charity Gala 2018 at the Arena St. Patrick's "
 collection:
   image_20: img/46260973_973928402793332_4089369857240334336_n.jpg
