@@ -6,7 +6,7 @@ slideshow:
   caption_1: "2021 recipients with HEON Project Sponsors Rae Thomas (left) and
     Frederick Belfon (right) at the 7th HEON Scholarship Award Ceremony "
   slide_2: img/CGC01885.jpg
-  caption_2: "Fourth annul HEON Charity Dinner  "
+  caption_2: "4TH ANNUAL HEON CHARITY DINNER   "
   slide_3: img/kazelle-care.jpg
   caption_3: Kazelle Care collaborates with the HEON Project to provide electronic
     devices to HEON recipients
@@ -22,7 +22,7 @@ blurb:
 mission:
   heading: Our Mission
   text: Our mission is to facilitate the process of youth empowerment through
-    education and the development of one's skills and abilities
+    education and the development of their skills and talents.
   image: /img/heon-group-photo-mission.jpg
 help:
   heading: How can you help
