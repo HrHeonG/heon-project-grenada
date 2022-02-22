@@ -1,6 +1,6 @@
 ---
 hide_form: false
-title: "HEON Project in collaboration with the Ann Alexander Memorial Scholarship "
+title: "Ann Alexander Memorial Scholarship in collaboration with the HEON Project "
 description: >-
   Apply for the Ann Alexander Scholarship Award. 
 
