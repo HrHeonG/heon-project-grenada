@@ -13,9 +13,5 @@ description: >-
 
   Applicants must provide evidence of monthly household income 
 show_button: true
-button_link: "\tNew Entry \tComment  Mc Quiva Griffith \t\tEntered as Mc Quiva
-  Wilson; since then she has married, Griffith entered as last name as well
-  Risha Harris \t\tNo batch number provided on Vaccination card for 2nd
-  dose  Gordon Ewarld\t\tFirst name changed in the system to Ewarld and not
-  Gordon  1st Dose\t\t 2nd Dose \t10\t Booster \t25\t \t\t"
+button_link: https://docs.google.com/forms/d/e/1FAIpQLScz5fEZhGbtfXc6hUHYWNjeiKhBFih9M6Eizl9TqNTGbJN2Qg/viewform
 ---
